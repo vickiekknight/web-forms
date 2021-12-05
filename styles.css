@@ -1,0 +1,21 @@
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: SteelBlue;
+}
+
+input[type=password]:focus {
+  background-color: seagreen;
+  outline: none;
+}
+
+input {
+  border-radius: 15px;
+}
